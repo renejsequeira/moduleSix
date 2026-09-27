@@ -10,7 +10,7 @@ public class StudentInfo {
 		List <Student> student = new ArrayList<>();
 		
 		for(int i = 0; i < 3 ; i++) {
-			System.out.println("Enter student rollno, name, and address: ");
+			System.out.println("Enter student roll number, name, and address: ");
 			rollno = keyboard.nextInt();
 			keyboard.nextLine();
 			name = keyboard.nextLine();
