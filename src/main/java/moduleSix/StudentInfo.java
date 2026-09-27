@@ -9,7 +9,7 @@ public class StudentInfo {
 		String address;
 		List <Student> student = new ArrayList<>();
 		
-		for(int i = 0; i < 3 ; i++) {
+		for(int i = 0; i < 10 ; i++) {
 			System.out.println("Enter student roll number, name, and address: ");
 			rollno = keyboard.nextInt();
 			keyboard.nextLine();
@@ -17,10 +17,6 @@ public class StudentInfo {
 			address = keyboard.nextLine();
 			Student newStudent = new Student(rollno,name,address);
 			student.add(newStudent);
-			/*
-			for(Student n:student) {
-				System.out.println(n.toString());
-			}*/
 		}
 		
 		keyboard.close();
